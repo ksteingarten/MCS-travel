@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Tailwind -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Need tailwind config here to work with CDN, plus in config file for editor autocomplete. -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            sage: "#95bc81",
+                            "dark-sage": "#68845a",
+                            "light-sage": "#f2ffeb",
+                            purple: "#bc81a1",
+                            "dark-purple": "#845a71",
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <title>MCS Travel</title>
+    </head>
+    <body class="bg-light-sage min-h-svh grid grid-rows-[auto_1fr_auto]">
+        <header class="bg-sage">MCS Travel</header>
+        <main>content</main>
+        <footer class="bg-sage">feet</footer>
+        <script src="script.js"></script>
+    </body>
+</html>
